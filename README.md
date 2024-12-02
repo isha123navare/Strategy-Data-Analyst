@@ -1,8 +1,5 @@
 # Project: Analyzing the Impact of Car Features on Price and Profitability
 
-Raw Dataset Link: 
-Project 7 Dataset.xlsx
-
 Problem Statement:
 
 The automotive industry has been rapidly evolving over the past few decades, with a growing focus on fuel efficiency, environmental sustainability, and technological innovation. With increasing competition among manufacturers and a changing consumer landscape, it has become more important than ever to understand the factors that drive consumer demand for cars.
