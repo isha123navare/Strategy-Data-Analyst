@@ -1,0 +1,23 @@
+Data Cleaning:
+1.	First convert the data to a table for easy visualization and understanding.
+2.	Using COUNTBLANK function in excel, calculated the amount of blanks in each column. Result:
+Column Name	No. of Blanks
+Make	0
+Model	0
+Year	0
+Engine Fuel Type	3
+Engine HP	69
+Engine Cylinders	30
+Transmission Type	0
+Driven_Wheels	0
+Number of Doors	6
+Market Category	0
+Vehicle Size	0
+Vehicle Style	0
+highway MPG	0
+city mpg	0
+Popularity	0
+MSRP	0
+
+
+
