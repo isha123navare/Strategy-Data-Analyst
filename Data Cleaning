@@ -3,25 +3,16 @@ Data Cleaning:
 2.Using COUNTBLANK function in excel, calculated the amount of blanks in each column. 
 
 Result:
-Column Name	No. of Blanks
-Make	0
-Model	0
-Year	0
-Engine Fuel Type	3
-Engine HP	69
-Engine Cylinders	30
-Transmission Type	0
-Driven_Wheels	0
-Number of Doors	6
-Market Category	0
-Vehicle Size	0
-Vehicle Style	0
-highway MPG	0
-city mpg	0
-Popularity	0
-MSRP	0
+Column Name	        No. of Blanks
+Engine Fuel Type	      3
+Engine HP	              69
+Engine Cylinders	      30
+Number of Doors	        6
+
+Other columns do not have any missing/null values or blanks.
 
 3.	Determining method to handle missing values:
+
 Column Name	     No. of Blanks	Method of Handling Data	   Skewness	 Kurtosis	 Median
 Engine Fuel Type	3	              Delete Rows	               NA	        NA	      NA
 Engine HP	       69	            Median Imputation	       1.291229	     2.323	    227
