@@ -1,6 +1,8 @@
 Data Cleaning:
 1.	First convert the data to a table for easy visualization and understanding.
-2.	Using COUNTBLANK function in excel, calculated the amount of blanks in each column. Result:
+2.	Using COUNTBLANK function in excel, calculated the amount of blanks in each column. 
+
+Result:
 Column Name	No. of Blanks
 Make	0
 Model	0
@@ -18,6 +20,18 @@ highway MPG	0
 city mpg	0
 Popularity	0
 MSRP	0
+
+3.	Determining method to handle missing values:
+Column Name	     No. of Blanks	Method of Handling Data	   Skewness	 Kurtosis	 Median
+Engine Fuel Type	3	              Delete Rows	               NA	        NA	      NA
+Engine HP	       69	            Median Imputation	       1.291229	     2.323	    227
+Engine Cylinders 30	            Median Imputation	       0.964542	       2	       6
+Number of Doors	  6	              Delete Rows	               NA	        NA	      NA
+
+Reasoning: 
+A.	Some rows would be deleted as they are lesser in number.
+B.	Median Imputation is chosen for the dataset as the distribution of Engine HP & Engine Cylinders is positively skewed. 
+
 
 
 
