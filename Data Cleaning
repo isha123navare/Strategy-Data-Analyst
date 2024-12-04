@@ -1,6 +1,6 @@
 Data Cleaning:
-1.	First convert the data to a table for easy visualization and understanding.
-2.	Using COUNTBLANK function in excel, calculated the amount of blanks in each column. 
+1.First convert the data to a table for easy visualization and understanding.
+2.Using COUNTBLANK function in excel, calculated the amount of blanks in each column. 
 
 Result:
 Column Name	No. of Blanks
